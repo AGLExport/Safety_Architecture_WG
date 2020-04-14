@@ -1,0 +1,22 @@
+AC_PREREQ([2.69])
+
+AC_INIT([edac_app], [1.0])
+
+AM_INIT_AUTOMAKE([foreign])
+
+AC_CONFIG_SRCDIR([edac_app.c])
+
+AC_CONFIG_HEADERS([config.h])
+
+AC_CONFIG_MACRO_DIR([m4])
+
+AC_PROG_CC
+
+AC_PROG_CXX
+
+AC_PROG_INSTALL
+
+AC_CONFIG_FILES([Makefile
+				 ])
+AC_OUTPUT
+
